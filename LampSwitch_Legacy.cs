@@ -6,7 +6,7 @@ class Lamp
 {
     public State State { get; private set; }
 
-    // Inicializa desligada
+    
     public Lamp(State state = State.Off)
     {
         State = state;
